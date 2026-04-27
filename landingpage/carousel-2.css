@@ -1,0 +1,73 @@
+:root {
+  --item-width: 100px;
+  /* Adjust logo width and height */
+  --item-height: 140px;
+  --total-items: 12;
+  /* Number of items */
+  --animation-duration: 150s;
+  --spacing: 50px;
+  /* Spacing between items */
+
+}
+
+
+
+
+.res {
+  width: 100%;
+  height: 100%;
+  background-color:#191466
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  /* Absolute Positioning */
+  height: var(--item-height);
+  margin-top: 5rem;
+  overflow: hidden;
+  mask-image: linear-gradient(to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0));
+  /* Gradient mask for faded edges effect */
+
+}
+
+@keyframes scrollLeft {
+  to {
+    left: calc(var(--item-width) * -1);
+  }
+}
+
+.item {
+  width: var(--item-width);
+  height: var(--item-height);
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc((var(--item-width) + var(--spacing)) * var(--total-items)), 100%);
+  animation-name: scrollLeft;
+  animation-duration: var(--animation-duration);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  margin-right: var(--spacing);
+  animation-delay: calc(var(--animation-duration) / var(--total-items) * (var(--total-items) - var(--n)) * -1);
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.marquee-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  font-family: "Inter", Roboto-Regular;
+}

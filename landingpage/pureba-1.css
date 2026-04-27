@@ -1,0 +1,62 @@
+
+
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my_container {
+  
+  img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  }
+
+
+h3 {
+  margin-top: 1.5rem;
+  color: #1c238a;
+}
+
+.mobile,
+.tablet {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop,
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .desktop,
+  .tablet {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  img {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+
+
+
+
+  
+  
