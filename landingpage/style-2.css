@@ -1230,7 +1230,7 @@ input[type="submit"]:focus {
 
 @font-face {
     font-family: "Astra";
-    src: url(https://comicbranding.com/comments/landingpage/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"), url(https://comicbranding.com/comments/landingpage/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"), url(https://comicbranding.com/comments/landingpage/wp-content/themes/astra/assets/fonts/astra.svg) format("svg");
+    src: url(./astra.woff) format("woff"), url(./astra.ttf) format("truetype"), url(./astra.svg) format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
