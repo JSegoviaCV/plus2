@@ -140,41 +140,41 @@ form {
 	font-style: normal;
 	font-weight: bold;
 	font-display: auto;
-	src: url('https://comicbranding.com/wp-content/uploads/2023/09/ArticulatCF-Bold.ttf') format('truetype');
+	src: url('./ArticulatCF-Bold.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Articulat';
 	font-style: oblique;
 	font-weight: bold;
 	font-display: auto;
-	src: url('https://comicbranding.com/wp-content/uploads/2023/09/ArticulatCF-BoldOblique.ttf') format('truetype');
+	src: url('./ArticulatCF-BoldOblique.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Articulat';
 	font-style: normal;
 	font-weight: 500;
 	font-display: auto;
-	src: url('https://comicbranding.com/wp-content/uploads/2023/09/ArticulatCF-Medium.ttf') format('truetype');
+	src: url('./ArticulatCF-Medium.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Articulat';
 	font-style: oblique;
 	font-weight: 500;
 	font-display: auto;
-	src: url('https://comicbranding.com/wp-content/uploads/2023/09/ArticulatCF-MediumOblique.ttf') format('truetype');
+	src: url('./ArticulatCF-MediumOblique.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Articulat';
 	font-style: normal;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://comicbranding.com/wp-content/uploads/2023/09/ArticulatCF-Text.ttf') format('truetype');
+	src: url('./ArticulatCF-Text.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Articulat';
 	font-style: oblique;
 	font-weight: normal;
 	font-display: auto;
-	src: url('https://comicbranding.com/wp-content/uploads/2023/09/ArticulatCF-TextOblique.ttf') format('truetype');
+	src: url('./ArticulatCF-TextOblique.ttf') format('truetype');
 }
 /* End Custom Fonts CSS */
